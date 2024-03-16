@@ -8,14 +8,14 @@ public class Main {
             System.out.println("Если возраст человека равен " + age +
                     ", то он не достиг совершеннолетия, нужно немного подождать");
         }
-        // Задча 2
+        // Задача 2
         int degrees = -20;
         if (degrees < 5) {
             System.out.println("На улице " + degrees + " градусов, нужно надеть шапку.");
         } else {
             System.out.println("На улице " + degrees + " градусов, можно идти без шапки.");
         }
-        //Задча 3
+        //Задача 3
         int speed = 61;
         if (speed >= 60) {
             System.out.println("Если скорость " + speed + " то придется заплатить штраф.");
@@ -60,10 +60,10 @@ public class Main {
             System.out.println("В вагоне есть сидячие места");
         }
         //Задача 7
-        int one = 2579;
-        int two = 2500;
-        int three = 345;
-        if (one > two && two > three) {
+        int one = 10000;
+        int two = 45000;
+        int three = 760000;
+        if (one > two && one > three) {
             System.out.println(one + " - большее число");
         } else if (two > three) {
             System.out.println(two + " - большее число");
